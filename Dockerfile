@@ -2,7 +2,7 @@
 FROM nginx:alpine
 
 # Copy the privacy policy HTML file to the Nginx HTML directory
-COPY privacy-policy.html /usr/share/nginx/html/index.html
+COPY index.html /usr/share/nginx/html/index.html
 
 # Copy the logo image to the same directory
 COPY logo.png /usr/share/nginx/html/logo.png
